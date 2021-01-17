@@ -28,6 +28,14 @@ private slots:
 
     void on_textEdit_textChanged();
 
+    void on_copyBtn_clicked();
+
+    void on_autoCopyCB_stateChanged(int arg1);
+
+    void on_pasteBtn_clicked();
+
+
+
 private:
     Ui::MainWindow *ui;
 };
